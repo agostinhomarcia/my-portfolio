@@ -1,0 +1,22 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Playpen Sans", sans-serif;
+  font-size: 25px;
+}
+
+ul {
+  list-style: none;
+  /* font-size: 30px; */
+}
+
+a {
+  text-decoration: none;
+  font-weight: 700;
+  color: #a65ee0;
+}
+body {
+  background-color: #2e2e34;
+  color: #fff;
+}
