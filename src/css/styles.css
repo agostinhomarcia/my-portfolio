@@ -12,19 +12,30 @@ body::-webkit-scrollbar-thumb {
 }
 
 header {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding: 10px;
-  border: 1px solid;
-  box-shadow: 1px 1px 10px 1px #101010;
-  /* border-bottom: 8px ridge #101010; */
-  margin-bottom: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid;
+    box-shadow: 1px 1px 10px 1px #101010;
+    margin-bottom: 45px;
+}
+
+.logo {
+    margin-right: 20px; /* Adicione margem direita para separar os elementos */
 }
 
 header ul {
-  display: flex;
+    list-style: none; /* Remova os marcadores de lista padrão */
+    display: flex;
+    margin: 0; /* Remova margem padrão */
+    padding: 0; /* Remova preenchimento padrão */
 }
+
+header ul li {
+    margin-right: 10px; /* Adicione margem direita entre os itens da lista */
+}
+
 
 .project-html {
   margin-top: 30px;
@@ -34,6 +45,7 @@ header ul {
   width: 75px;
   height: 75px;
   border-radius: 50%;
+  margin-left: 140px;
 }
 
 header ul li {
